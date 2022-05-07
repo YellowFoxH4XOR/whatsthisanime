@@ -16,6 +16,8 @@
 }
 
 .body-style{
-    background-image: url('back.jpg');
-    opacity: 30%;
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("back2.jpg");
+    background-size:     fit;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
 }
