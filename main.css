@@ -9,3 +9,15 @@
     flex-direction: row;
     justify-content: start;
 }
+
+.tag-mid{
+    text-align: center;
+    border: 3px solid green;
+}
+
+.body-style{
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("back2.jpg");
+    background-size:     fit;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
