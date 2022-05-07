@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Whats this Anime</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1>Please Upload the Image</h1>
+    <div class="flex-box">
+        <input type="file" id="anime" name="anime" accept="image/png, image/jpeg, image/jpg" onchange="loadFile(event)">
+        <div class="inner-flex">
+            <img src="demo.png" style="margin-top: 30px;" id="output" width="400" height="300"/>
+            <h2 style="margin-left: 30px; margin-top: 150px;" id='animename'></h2>
+            <a id='video' style="margin-left: 30px; margin-top: 150px;" href="" target="_blank">Watch Exact Scene</a>
+        </div>
+    </div>
+    <br>
+    <br>
+    <button onclick="fetchResponse()">Find Matching Anime</button>
+</body>
+</html>
