@@ -7,5 +7,22 @@
     Finds The Anime name and the corresponding video fragment
 </p>
 
-## Raw steps to build
+## Raw steps to build.
 - Run index.html and follow the steps
+
+## Website looks like the following.
+
+<p  align="center">
+    <img  src="websitelook.PNG"  alt="anime" width=300 height=200><br>
+    The home page looks like the above.
+</p>
+
+<p  align="center">
+    <img  src="uploadpicture.PNG"  alt="anime" width=300 height=200><br>
+    The user must upload the picture.
+</p>
+
+<p  align="center">
+    <img  src="result.PNG"  alt="anime" width=300 height=200><br>
+    The result is displayed like above.
+</p>
